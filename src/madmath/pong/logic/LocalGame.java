@@ -20,7 +20,7 @@ public class LocalGame implements KeyListener, Game{
 	private Player[] players;
 	private LocalBall ball;
 	private Bouncer[] bouncers=new Bouncer[2];
-	private static final int[] keysRecognized= {KeyEvent.VK_SHIFT,KeyEvent.VK_CONTROL,KeyEvent.VK_UP,KeyEvent.VK_DOWN};
+	private static final int[] keysRecognized= {KeyEvent.VK_W,KeyEvent.VK_S,KeyEvent.VK_UP,KeyEvent.VK_DOWN};
 	private boolean[] movement= {false,false,false,false};
 	private int[] resolution={1600,1200};
 
